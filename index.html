@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+    
+
+    <script
+      src="https://kit.fontawesome.com/777e80b3cb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/lgp.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#HOME">HOME</a></li>
+            <li><a href="#ABOUT">ABOUT</a></li>
+            <li><a href="#SERVICES">SERVICES</a></li>
+            <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+            <li><a href="#CONTACT">CONTACT</a></li>
+            <i class="fa-solid fa-xmark" onclick="Closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="Openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>Hi, I'am <span>Rumaiz Rifdhi</span><br />from Sri Lanka</h1>
+          <p>
+            <b>Web <span style="color: #5ce1e6">Developer</span></b>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!----------about---------->
+    <div id="ABOUT">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/wp.jpeg" alt="my-portfolio"/>
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">ABOUT ME</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+              harum, inventore alias doloribus fuga consequuntur unde non cum
+              minus delectus optio, accusamus eligendi sunt hic, a corporis
+              consequatur amet voluptate.
+            </p>
+
+            <div class="tab-titles">
+              <b><p class="tab-links active-link" onclick="opentab('SKILLS')"></b>
+                SKILLS
+              </p>
+              <b><p class="tab-links" onclick="opentab('EXPERIENCE')"></b>
+                EXPERIENCE
+              </p>
+              <b><p class="tab-links" onclick="opentab('EDUCATION')">EDUCATION</p></b>
+            </div>
+            <div class="tab-contents active-tab" id="SKILLS">
+              <ul>
+                <li><span>UI/UX</span><br />Web Desingning</li>
+                <li><span>UI/UX</span><br />Web Desingning</li>
+                <li><span>UI/UX</span><br />Web Desingning</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="EXPERIENCE">
+              <ul>
+                <li><span>2016</span><br />Web Desingning at esoft</li>
+                <li><span>2019</span><br />Web Desingning at esoft</li>
+                <li><span>2020</span><br />Web Desingning at esoft</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="EDUCATION">
+              <ul>
+                <li>
+                  <span>2024</span><br />Diploma In Information Technology
+                </li>
+                <li><span>2024</span><br />Diploma In English</li>
+                <li><span>2025</span><br />HND In Software Engineering</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------services-------->
+    <div id="SERVICES">
+      <div class="container">
+        <h1 class="sub-title">MY SERVICES</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>WEB DESIGNING</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni,
+              voluptatem delectus. >Numquam exercitationem omnis ducimus
+              dignissimos? Recusandae, tempore? Deserunt iusto itaque in
+              repudiandae eveniet praesentium delectus facilis, natus nulla
+              accusamus?
+            </p>
+            <a href="#">Lern More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>WEB DEVELOPING</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni,
+              voluptatem delectus. Numquam exercitationem omnis ducimus
+              dignissimos? Recusandae, tempore? Deserunt iusto itaque in
+              repudiandae eveniet praesentium delectus facilis, natus nulla
+              accusamus?
+            </p>
+            <a href="#">Lern More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-pen-nib"></i>
+            <h2>GRAPHIC DESIGNING</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni,
+              voluptatem delectus. Numquam exercitationem omnis ducimus
+              dignissimos? Recusandae, tempore? Deserunt iusto itaque in
+              repudiandae eveniet praesentium delectus facilis, natus nulla
+              accusamus?
+            </p>
+            <a href="#">Lern More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------Portfolio-------->
+    <div id="PORTFOLIO">
+      <div class="container">
+        <h1 class="sub-title">MY WORKS</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/w1.png" />
+            <div class="layer">
+              <h3><b>Online Website</b></h3>
+              <p>
+                A paragraph is a brief piece of writing that's around seven to
+                ten sentences long.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/w2.1.jpg" />
+            <div class="layer">
+              <h3><b>Online Website</b></h3>
+              <p>
+                A paragraph is a brief piece of writing that's around seven to
+                ten sentences long.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/w3.1.jpg" />
+            <div class="layer">
+              <h3><b>Online Website</b></h3>
+              <p>
+                A paragraph is a brief piece of writing that's around seven to
+                ten sentences long.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!-----------contact---------->
+    <div id="CONTACT">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">CONTACT ME</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> rumaizrifdhi126@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i> 0759508865</p>
+            <div class="social-icons">
+              <a href="https://facebook.com/"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/RUMAIZ CV..pdf" download class="btn btn2"
+              >Download Cv</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="E-mail"
+                placeholder="Your E-mail"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © rumXiz. Made by <i class="fa-solid fa-heart"></i> with
+          Rumaiz rifdhi
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function Openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function Closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbycLR6buToSXM5yuvjShIt1gPgzyUvSm68RP96iBLMQHwjisu5gYxST1v_uXfO1CPlD/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
